@@ -1,9 +1,7 @@
+import WorkSection from "./components/WorkSection";
+
 function App() {
-  return (
-    <>
-      <div>Hi</div>
-    </>
-  );
+  return <WorkSection />;
 }
 
 export default App;

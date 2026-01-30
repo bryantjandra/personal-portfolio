@@ -1,6 +1,6 @@
 import type { WorkExperience, Project } from "../types";
 
-export const workExperience: WorkExperience[] = [
+export const experiences: WorkExperience[] = [
   {
     logo: "/tiktokLogo.jpg",
     company: "TikTok",
