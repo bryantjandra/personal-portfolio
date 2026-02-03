@@ -1,4 +1,5 @@
 import type { WorkExperience } from "../types";
+import styles from "./WorkItem.module.css";
 
 interface WorkItemProps {
   data: WorkExperience;
@@ -6,8 +7,11 @@ interface WorkItemProps {
 
 export default function WorkItem({ data }: WorkItemProps) {
   return (
-    <div>
-      {data.logo} {data.company} {data.role} {data.date}
+    <div className={styles.container}>
+      <div>
+        {data.logo} {data.company} {data.role}
+      </div>
+      {data.date}
     </div>
   );
 }
