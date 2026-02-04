@@ -2,7 +2,7 @@ import type { WorkExperience, Project } from "../types";
 
 export const experiences: WorkExperience[] = [
   {
-    logo: "/tiktokLogo.jpg",
+    logo: "/tiktokLogo.jpeg",
     company: "TikTok",
     role: "Software Engineer Intern",
     date: "2025",
