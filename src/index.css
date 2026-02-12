@@ -1,6 +1,7 @@
 :root {
   --color-foreground: 56, 51, 46;
   --color-muted: 138, 128, 117;
+  --color-hover: 134, 112, 45;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");

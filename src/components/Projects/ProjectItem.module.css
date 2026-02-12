@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  justify-content: start;
+  gap: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
+
+.container:hover .title {
+  color: rgb(var(--color-hover));
+}
+
+.title {
+  transition: color 0.3s ease;
+}
+
+.description {
+  color: rgb(var(--color-muted));
+}

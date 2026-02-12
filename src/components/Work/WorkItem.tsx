@@ -1,4 +1,4 @@
-import type { WorkExperience } from "../types";
+import type { WorkExperience } from "../../types";
 import styles from "./WorkItem.module.css";
 
 interface WorkItemProps {

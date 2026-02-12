@@ -1,5 +1,5 @@
 import WorkItem from "./WorkItem";
-import { experiences } from "../data";
+import { experiences } from "../../data";
 import styles from "./WorkSection.module.css";
 
 export default function WorkSection() {
