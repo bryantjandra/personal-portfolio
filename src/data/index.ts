@@ -6,18 +6,21 @@ export const experiences: WorkExperience[] = [
     company: "TikTok",
     role: "Software Engineer Intern",
     date: "2025",
+    url: "https://lifeattiktok.com/",
   },
   {
     logo: "/wsaLogo.jpg",
     company: "WSAudiology",
     role: "Backend Engineer Intern",
     date: "2024",
+    url: "https://www.wsa.com/",
   },
   {
     logo: "/mulaiCodingLogo.png",
     company: "Mulai Coding",
     role: "Software Engineer Intern",
     date: "2023",
+    url: "https://mulaicoding.com/",
   },
 ];
 

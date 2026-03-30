@@ -7,13 +7,13 @@ interface WorkItemProps {
 
 export default function WorkItem({ data }: WorkItemProps) {
   return (
-    <div className={styles.container}>
+    <a className={styles.container} href={data.url} target="__blank">
       <div className={styles.leftGroup}>
         <img src={data.logo} alt={data.company} className={styles.logo} />
         <span>{data.company}</span>
         <span className={styles.role}>{data.role}</span>
       </div>
       <span className={styles.date}>{data.date}</span>
-    </div>
+    </a>
   );
 }

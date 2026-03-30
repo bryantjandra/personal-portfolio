@@ -2,11 +2,16 @@
   color: rgb(var(--color-muted));
   font-weight: 450;
   font-size: 16px;
-  letter-spacing: 0.5px;
 }
 
 .container {
   display: flex;
   flex-direction: column;
   row-gap: 14px;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
 }

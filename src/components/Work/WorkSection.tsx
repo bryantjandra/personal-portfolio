@@ -4,13 +4,13 @@ import styles from "./WorkSection.module.css";
 
 export default function WorkSection() {
   return (
-    <>
+    <div className={styles.container}>
       <h3 className={styles.title}>WORK</h3>
       <div className={styles.list}>
         {experiences.map((exp) => (
           <WorkItem key={exp.company} data={exp} />
         ))}
       </div>
-    </>
+    </div>
   );
 }

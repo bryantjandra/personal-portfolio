@@ -3,6 +3,7 @@ export interface WorkExperience {
   company: string;
   role: string;
   date: string;
+  url: string;
 }
 
 export interface Project {
