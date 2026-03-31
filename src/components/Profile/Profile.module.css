@@ -16,14 +16,15 @@
 
 .container {
   display: flex;
-  align-items: center;
+  align-items: start;
   column-gap: 20px;
 }
 
 .subContainer {
   display: flex;
   flex-direction: column;
-  row-gap: 5px;
+  row-gap: 10px;
+  margin-top: 5px;
 }
 
 .name {
@@ -32,6 +33,7 @@
 
 .description {
   color: rgb(var(--color-muted));
+  line-height: 1.5;
 }
 
 .logos {
@@ -42,4 +44,14 @@
 
 .logoImage:hover {
   color: rgb(var(--color-hover));
+}
+
+.underlinedText {
+  text-decoration: underline;
+  transition: text-decoration 0.3s ease;
+  color: inherit;
+}
+
+.underlinedText:hover {
+  text-decoration: underline rgb(var(--color-muted-highlighted));
 }

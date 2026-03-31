@@ -1,6 +1,7 @@
 :root {
   --color-foreground: 56, 51, 46;
   --color-muted: 138, 128, 117;
+  --color-muted-highlighted: 80, 74, 67;
   --color-hover: 134, 112, 45;
 }
 
