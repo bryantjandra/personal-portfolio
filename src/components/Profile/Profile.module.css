@@ -4,6 +4,12 @@
   border-radius: 50px;
 }
 
+.leftSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .logoImage {
   width: 20px;
   height: 20px;
@@ -40,6 +46,7 @@
   margin-top: 5px;
   display: flex;
   column-gap: 15px;
+  justify-content: center;
 }
 
 .logoImage:hover {
