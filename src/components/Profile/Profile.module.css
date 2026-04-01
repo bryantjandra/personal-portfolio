@@ -23,7 +23,7 @@
 .container {
   display: flex;
   align-items: start;
-  column-gap: 20px;
+  column-gap: 30px;
 }
 
 .subContainer {

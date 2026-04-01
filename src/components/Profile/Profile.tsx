@@ -36,7 +36,14 @@ export default function Profile() {
           <p className={styles.name}>Benedict Bryan Tjandra</p>
           <p className={styles.description}>
             • I am a software engineer (ai + fullstack) currently building
-            ai-native solutions at TikTok.
+            ai-native solutions at {""}
+            <a
+              className={styles.underlinedText}
+              href="https://lifeattiktok.com/"
+              target="__blank"
+            >
+              TikTok
+            </a>{" "}
           </p>
           <p className={styles.description}>
             • Graduated from the {""}
@@ -47,7 +54,8 @@ export default function Profile() {
             >
               National University of Singapore
             </a>{" "}
-            {""} with a Bachelor's in Computer Science where I was ranked top 5%
+            {""} with a Bachelor's in Computer Science where I was ranked {""}
+            <b>top 5%</b> {""}
             of my entire cohort.
           </p>
           <p className={styles.description}>• Currently, TODO TODO</p>

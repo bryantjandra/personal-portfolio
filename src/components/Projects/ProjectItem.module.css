@@ -1,4 +1,5 @@
-.container {
+.containerLink {
+  width: 600px;
   display: flex;
   justify-content: start;
   gap: 10px;
@@ -7,7 +8,11 @@
   color: inherit;
 }
 
-.container:hover .title {
+.container {
+  display: flex;
+}
+
+.containerLink:hover .title {
   color: rgb(var(--color-hover));
 }
 
@@ -17,4 +22,34 @@
 
 .description {
   color: rgb(var(--color-muted));
+}
+
+.buttonIcon {
+  all: unset;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.arrowDropdown {
+  width: 15px;
+  height: 15px;
+  transition: transform 0.7s ease-in-out;
+  transform: rotate(0deg);
+}
+
+.arrowUp {
+  width: 15px;
+  height: 15px;
+  transition: transform 0.7s ease-in-out;
+  transform: rotate(180deg);
+}
+
+.fullDescription {
+  color: rgb(var(--color-muted-highlighted));
+  border-top-left-radius: 10px;
+  border: 2px solid rgb(var(--color-muted));
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
 }

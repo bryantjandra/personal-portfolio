@@ -10,5 +10,6 @@ export interface Project {
   logo: string;
   title: string;
   description: string;
+  completeDescription: string[];
   url: string;
 }
