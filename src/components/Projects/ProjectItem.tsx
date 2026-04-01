@@ -29,14 +29,18 @@ export default function ProjectItem({ data }: ProjectItemProps) {
         </button>
       </div>
 
-      {showDescription && (
-        <div className={styles.fullDescription}>
-          {" "}
-          {data.completeDescription.map((desc) => {
-            return <div>• {desc}</div>;
-          })}
-        </div>
-      )}
+      <div
+        className={
+          showDescription
+            ? styles.fullDescription
+            : styles.fullDescriptionHidden
+        }
+      >
+        {" "}
+        {data.completeDescription.map((desc) => {
+          return <div>• {desc}</div>;
+        })}
+      </div>
     </>
   );
 }

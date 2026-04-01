@@ -33,23 +33,45 @@
 .arrowDropdown {
   width: 15px;
   height: 15px;
-  transition: transform 0.7s ease-in-out;
+  transition: transform 0.7s linear;
   transform: rotate(0deg);
 }
 
 .arrowUp {
   width: 15px;
   height: 15px;
-  transition: transform 0.7s ease-in-out;
+  transition: transform 0.7s linear;
   transform: rotate(180deg);
 }
 
 .fullDescription {
   color: rgb(var(--color-muted-highlighted));
-  border-top-left-radius: 10px;
+  border-radius: 10px;
   border: 2px solid rgb(var(--color-muted));
   padding: 10px;
   display: flex;
   flex-direction: column;
   row-gap: 5px;
+  animation-name: fade-in;
+  animation-duration: 1.5s;
+}
+
+.fullDescriptionHidden {
+  display: none;
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
 }
